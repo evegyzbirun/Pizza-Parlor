@@ -4,7 +4,7 @@
 
 #### The application let user to pick two toppings and size for a pizza order.
 
-#### the project link to github:
+#### the project link to github:https://github.com/evegyzbirun/Pizza-Parlor
 
 #### _Shop for pizza._
 
