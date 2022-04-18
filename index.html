@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Pizza Parlor</title>
+</head>
+<h2>Build your Pizza!!</h2>
+
+<body>
+  <div class="container">
+
+    <form id="OrderPizza">
+      <label class="pick">Topping meat:</label>
+      <select id="toppings1">
+        <option value="sausage">Sausage</option>
+        <option value="pepperoni">Pepperoni</option>
+        <option value="meatballs">Meatballs</option>
+        <option value="bacon">Bacon</option>
+        <option value="chicken">Chicken</option>
+      </select>
+      <label class="pick">Topping vegetables:</label>
+      <select id="toppings2">
+        <option value="green_olives">Green olives</option>
+        <option value="mushrooms">Mushrooms </option>
+        <option value="blackolives">Black olives </option>
+        <option value="artichoke">Artichoke </option>
+      </select>
+      <label class="pick">Pick your size</label>
+      <select id="sizeMain">
+        <option value="small">small</option>
+        <option value="medium">medium</option>
+        <option value="large">large</option>
+      </select>
+
+      <button type="submit" class="btn">total</button>
+    </form>
+    <div id="output">
+      <h1>Your total is $<span id="orderTotal"></span></h1>
+    </div>
+  </div>
+</body>
+
+</html>

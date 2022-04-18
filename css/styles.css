@@ -1,0 +1,16 @@
+#output {
+  display: none;
+}
+
+body {
+  background-color: #e7dfb1;
+}
+
+
+
+
+div .button {
+  padding: 20px;
+  text-align: center;
+  color: #915605;
+}
