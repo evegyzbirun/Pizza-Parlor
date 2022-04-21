@@ -34,7 +34,7 @@ Expected Output: 8$
 
 Test 2: "It should return a pizza object with two properties for two toppings and size (Medium) extra cost"
 Code: let myPizza = new Pizza("sausage" ,"green_olives", "medium" );
-Expected Output: Pizza 10$
+Expected Output: 10$
 
 ## Known Bugs
 
