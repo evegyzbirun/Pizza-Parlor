@@ -30,11 +30,11 @@ _This is a pizza company where people can order pizza. _
 ## Tests:
 Test 1: "It should return a pizza object with two properties for two toppings and size"
 Code: let myPizza = new Pizza("sausage" ,"green_olives", "small" );
-Expected Output: Pizza {toppings1: "sausage", toppings2: "green_olives" size: "small"}
+Expected Output: 8$
 
 Test 2: "It should return a pizza object with two properties for two toppings and size (Medium) extra cost"
 Code: let myPizza = new Pizza("sausage" ,"green_olives", "medium" );
-Expected Output: Pizza {toppings1: "sausage", toppings2: "green_olives" size: "medium"}
+Expected Output: Pizza 10$
 
 ## Known Bugs
 
